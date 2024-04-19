@@ -51,3 +51,42 @@
 - src: Onde vamos programas as nossas apps;
 - src/index.js: Arquivo de inicialização do React;
 - src/App.js: Componente principal da aplicação;
+
+### Desafio 01
+
+1. Entre no nosso arquivo App.js e adicione mais algum elemento HTML da sua escolha;
+2. Crie uma regra de estilos em App.css que altere a cor do seu elemento;
+3. Vá até o arquivo index.html e altere o título da aplicação na meta tag;
+
+## Seção 02: Fundamentos de React
+
+### Aula 01 - Criando componentes
+
+- Na maioria ods projetos os componentes ficam em uma pasta cahmada components, que devemos criar;
+- Geralmente são nomeados com a camel case: FirstComponent.js;
+- No arquivo criamos uma função, que contém código deste componente(a lógica e o template);
+- E também precisamos exportar esta função, para reutilizá-lo;
+- Vamos ver na pratica!
+
+### Aula 02 - Importando componentes
+
+- A importação é a maneira que temos para reutilizar componentes;
+- Utilizamos a sintaxe. import X from ./components/x onde X é o nome do componente;
+- Para colocar o componente importado em outro compon### Aula 02 - Importando componentes
+- A importação é a maneira que temos para reutilizar componentes;
+- Utilizamos a sintaxe. import X from ./components/x onde X é o nome do componente;
+- Para colocar o componente importado em outro componente, precisamos colocá-lo em forma de tag: <FirstCompontenr/>;
+- E então finalizamos o ciclo de importação;
+- Vamos importar o FirstComponent em Appente, precisamos colocá-lo em forma de tag: <FirstCompontent/>;
+- E então finalizamos o ciclo de importação;
+- Vamos importar o FirstComponent em App;
+
+### Aula 03 - JSX
+
+- JSX é o HTML do React;
+- Onde vamos declarar as tagas de HTML que serão exibidas no anvegador;
+- Ficam no return do componente;
+- Temos algumas diferençãs do HTML, por exemplo: class será className;
+- Tisso se dá pelas intruções semelhantes de JS e HTML, pois JSX é JavaScript, então algumas terão nomes diferentes;
+- O JSX pode ter apneas um elemento pai;
+
