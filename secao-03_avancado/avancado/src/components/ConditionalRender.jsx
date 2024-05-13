@@ -7,7 +7,7 @@ const ConditionalRender = () => {
         <div>
             <h1>Isso será exibido?</h1>
             {x && <p> Se x for true, sim</p>}
-            {!x && <p>Agora x é false</p>}
+            {!x ? null : <p>Agora x é false</p>}
         </div>
     );
 };
