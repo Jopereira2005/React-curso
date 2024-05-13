@@ -174,3 +174,9 @@
 - Previous state é um recurso que nos permite pegar o dado em seu valor original dentro de um set dado;
 - Isso é muito usado para modificar listas, pois temos o valor antigo e transformamos em um valor novo;
 - O primeiro argumento de um set sempre será o previous state;
+
+### Aula 09 - Renderização condicional
+
+- Renderização condicional é quando imprimimos uma parte do template baseado em uma condição;
+- Ou seha, utulizando uma checagem com if;
+- Isso é interessante em situações como: usuário autenticado/não autenticado;
