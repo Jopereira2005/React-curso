@@ -8,16 +8,26 @@ import Container from './components/Container';
 import ExecuteFunction from './components/ExecuteFunction';
 import Message from './components/Message';
 import ChangeMessageState from './components/ChangeMessageState';
+import UserDetails from './components/UserDetails';
 
 import { useState } from 'react';
 import './App.css';
 
 function App() {
   const [userName] = useState("Carlos");
+
   const cars = [
     {id: 1, brand: "Ferrari", color: "Vermelha", newCar: true, km:0},
     {id: 2, brand: "Renault", color: "Preto", newCar: true, km: 0},
     {id: 3, brand: "Mercedes", color: "Azul", newCar: true, km: 1000},
+  ]
+  
+  const users = [
+    {id: 1, nome: "João", idade: 18, profissao: "Estudante"},
+    {id: 2, nome: "Beatriz", idade: 18, profissao: "Estudante"},
+    {id: 3, nome: "Lucas", idade: 18, profissao: "Técnico em TI"},
+    {id: 4, nome: "Enzo", idade: 6, profissao: "Desempregado"},
+    {id: 5, nome: "Gabriel", idade: 17, profissao: "Desempregado"}
   ]
 
   function showMensage() {
@@ -85,7 +95,16 @@ function App() {
       <Message msg={message}/>
       <ChangeMessageState handleMessage={handleMessage}/>
 
-      {/* Desafio */}
+      {/* Desafio 4*/}
+
+      {users.map((user) => (
+        <UserDetails 
+          nome={user.nome}
+          idade={user.idade}
+          profissao={user.profissao}
+        />
+      ))}
+      
     </div>
   )
 }
