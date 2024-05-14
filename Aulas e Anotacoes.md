@@ -123,7 +123,21 @@
 - Isso serve para criar situações que dependem de outra condições
 - Ou seja, o JSX a ser renderizado pode variar por alguma variável, por exemplo;
 
+### Desafio 2
+
+1. Crie um componente chamado Challenge;
+2. Importe-o em App.js;
+3. No componente criado faça a criação de dois valores numéricos;
+4. Imprima este valores no componente;
+5. Crie também um evento de click que soma estes dois valores e exibe no console;
+
 ## Seção 03: React Avançado
+
+### Desafio 3
+
+1. Crie um projeto para a nova seção;
+2. Limpe o arquivo do componente principal;
+3. E por fim coloque o título de Seção 3;
 
 ### Aula 01 - Imagens no React
 
@@ -180,3 +194,71 @@
 - Renderização condicional é quando imprimimos uma parte do template baseado em uma condição;
 - Ou seha, utulizando uma checagem com if;
 - Isso é interessante em situações como: usuário autenticado/não autenticado;
+
+### Aula 10 - Adicionando um else
+
+- Podemos também realizar um if/else no JSX;
+- Aqui devemos utilizar o if ternário;
+- Onde temos a sintaxe: condição ? bloco1 : bloco2
+
+### Aula 11 - Props
+
+- Props é outro recurso fundamental do React;
+- Nos permite passar valores de um componente pai para umcomponente filho;
+- Isso será muito útil quando os dados forem carregados via banco de dados, por exemplo;
+- As props vem em um objeto no argumento da função do componente;
+
+### Aula 12 - Desestruturando props
+
+- É super comum passar mais de uma prop em um componente;
+- Para facilitar isso o React nos permite desestruturar as propriedadesque chegam, com o recurso de destructuring;
+- Se temos duas props: nage e age;
+- Podemos fazer assim function MyComponent({name, age})
+
+### Aula 13 - Reutilização de componentes
+
+- Com props a reutilização de componentes começa a fazer muito sentido;
+- Se temos os dados de 1000 carros por exemplo, podemos reaproveitar o nosso CarDetails 1000 vezes;
+- Isso torna nosso código mais padronizado, facilitando a manutenção;
+
+### Aula 14 - Reutilização com loop
+
+- Os arrays de dados podem ter muitos itens também;
+- Então o correto é utilizar uma estrutura de loop (map) para a sua exibição;
+- E com isso conseguimos conciliar os três conceitos: renderização de listas, reaproveitamento de componentes e props;
+- Vamos ver na prática!
+
+### Aula 15 - React Fragments
+
+- Os React fragments são interessantes para quando precisamos ter maisde um elemento pai em um componente;
+- Criamos uma tag vazia: <> … </>
+- E ela serve como elemento pai, não alterando a estrutura do HTML comuma div, por exemplo;
+- Vamos ver na prática!
+
+### Aula 16 - Children prop
+
+- Children prop é um recurso utilizado para quando um componente precisa ter JSX dentro dele;
+- Porém este JSX vem do componente pai;
+- Então o componente age como um container, abraçando estes elementos;
+- E children é considerada uma prop do componente;
+- Vamos ver na prática!
+
+### Aula 17 - Funções em props
+
+- As funções podem ser passadas para as props normalmente;
+- Basta criar a função no componente pai e enviar como prop para ocomponente;
+- No componente filho ela pode ser ativada por um evento, por exemplo;
+- Vamos ver na prática!
+
+### Aula 18 - Elevação de state
+
+- Elevação de state ou State lift é quando um valor é elevado docomponente filho para o componente pai;
+- Geralmente temos um componente que usa o state e outro que o altera;
+- Então precisamos passar a alteração para o componente pai, e este passapara o componente que usa o state;
+
+### Desafio 4
+
+1. Crie um array de objetos compostos de pessoas, com as propriedades de: nome, idade e profissão (array com pelo menos 3 itens);
+2. Os dados devem ser exibidos em um componente UserDetails, que você deve criar, todas as informações devem ser exibidas;
+3. Faça uma renderização condicional que exibe se o usuário pode tirar carteira de habilitação ou não, imprima isso também no componente;
+4. A informação pode ser exibida num parágrafo (checar se idade >= 18);
