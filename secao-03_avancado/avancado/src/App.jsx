@@ -50,11 +50,12 @@ function App() {
 
       {/* Imagem em assets*/}
       <div>
-        <img src="./assets/city.jpg" alt="Imagem de cidade" />
+        <img src="./assets/city.jpg" alt="Imagem de cidade"/>
       </div>
       <ManageData/>
       <ListRender/>
       <ConditionalRender/>
+
       {/* Props */}
       <ShowUserName name={userName}/>
 
@@ -98,13 +99,13 @@ function App() {
       {/* Desafio 4*/}
 
       {users.map((user) => (
-        <UserDetails 
+        <UserDetails
+          key={user.id}
           nome={user.nome}
           idade={user.idade}
           profissao={user.profissao}
         />
       ))}
-      
     </div>
   )
 }
