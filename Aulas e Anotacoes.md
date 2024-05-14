@@ -262,3 +262,11 @@
 2. Os dados devem ser exibidos em um componente UserDetails, que você deve criar, todas as informações devem ser exibidas;
 3. Faça uma renderização condicional que exibe se o usuário pode tirar carteira de habilitação ou não, imprima isso também no componente;
 4. A informação pode ser exibida num parágrafo (checar se idade >= 18);
+
+## Seção 03: React Avançado
+
+### Aula 01 - CSS global
+
+- O CSS global é utilizado para estilizar diversos elementos em comum ou fazer um reset no CSS;
+- Utilizamos o arquivo index.css para isso;
+- Ele está na pasta src;
