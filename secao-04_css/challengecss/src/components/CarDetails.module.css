@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: violet;
+  font-size: 30px;
+}
+
+.list {
+  padding: 15px;
+  width: 400px;
+  list-style: none;
+  border: 3px solid red;
+  background-color: black;
+}
+
+.list_item {
+  font-size: 14px;
+  color: white;
+}
