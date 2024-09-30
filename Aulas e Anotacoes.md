@@ -8,7 +8,7 @@
 - Estas aplicações são chamadas de SPA (Single Pge Application);
 - A arquitetura do React é baseado em componetes;
 - Pode ser inserido em uma aplicação ou podemos criar a aplicação apenas com React;
-- É mantido pelo Facebook;
+- É mantido pelo Facebook.
 
 ### Aula 02 - O que é o Node.js
 
@@ -16,7 +16,7 @@
 - Ou seja, uma biblioteca utilizada por um compilador durante a execução do programa.
 - Que está contruída na V8 engine (engine em C++) da Google;
 - Possibilitando criar softwares em JS no lado servidor;
-- Temos então um código JS rodando em C++ para garantir alta performance;
+- Temos então um código JS rodando em C++ para garantir alta performance.
 
 ### Aula 03 - O que é npm?
 
@@ -25,7 +25,7 @@
 - E também executar determinados scripts no nosso programa;
 - Dificilmente um software em Node.js mão utiliza o npm;
 - Os módulos externos ficam numa pasta chamada node_modules;
-- Ela deve ser descartável, ou seja, a cada instalação do projeto baixamos todos os pacotes novamente;
+- Ela deve ser descartável, ou seja, a cada instalação do projeto baixamos todos os pacotes novamente.
 
 ### Aula 04 - Instalação Node Windows
 
@@ -33,14 +33,14 @@
 - Valos baixar um arquivo .msi,que pe o instalador;
 - É interessante saber que o npm vem junto do Node;
 - Após a instalação podemos testar o Node e o npm em um terminal, para validar a instalação;
-- Note que os binários precisam estar no PATH, este paasso está na instalação no Node;
+- Note que os binários precisam estar no PATH, este paasso está na instalação no Node.
 
 ### Aula 05 - Hello World em React
 
 - Para criar as nossas aplicações em React vamos utilizar um executor de scripts do Node, que é o npx;
 - Com o comando: npx create-react-app <nome> temos uma nova aplicação sendo gerada;
 - npm create vite@latest <- cria a nova aplicação com o vite;
-- Podemos iniciar a aplicação com npm start;
+- Podemos iniciar a aplicação com npm start.
 
 ### Aula 06 - Estrutura base
 
@@ -49,13 +49,13 @@
 - public: Assets estáticos e HTML de incialização;
 - src: Onde vamos programas as nossas apps;
 - src/index.js: Arquivo de inicialização do React;
-- src/App.js: Componente principal da aplicação;
+- src/App.js: Componente principal da aplicação.
 
 ### Desafio 01
 
 1. Entre no nosso arquivo App.js e adicione mais algum elemento HTML da sua escolha;
 2. Crie uma regra de estilos em App.css que altere a cor do seu elemento;
-3. Vá até o arquivo index.html e altere o título da aplicação na meta tag;
+3. Vá até o arquivo index.html e altere o título da aplicação na meta tag.
 
 ## Seção 02: Fundamentos de React
 
@@ -78,7 +78,7 @@
 - E então finalizamos o ciclo de importação;
 - Vamos importar o FirstComponent em Appente, precisamos colocá-lo em forma de tag: <FirstCompontent/>;
 - E então finalizamos o ciclo de importação;
-- Vamos importar o FirstComponent em App;
+- Vamos importar o FirstComponent em App.
 
 ### Aula 03 - JSX
 
@@ -87,20 +87,19 @@
 - Ficam no return do componente;
 - Temos algumas diferençãs do HTML, por exemplo: class será className;
 - Tisso se dá pelas intruções semelhantes de JS e HTML, pois JSX é JavaScript, então algumas terão nomes diferentes;
-- O JSX pode ter apneas um elemento pai;
+- O JSX pode ter apneas um elemento pai.
 
 ### Aula 04 - Template Expressions
 
 - Template Expressions é o recurso que nos permite executar JS no JSX e também interpolar variáveis;
 - Isso será muito útil ao longo dos seus projetos em React;
 - A sintaxe é: { algum Código em JS };
-- Tudo que está entre chaves é processado em JavaScript e nos retorna um resultado;
-
+- Tudo que está entre chaves é processado em JavaScript e nos retorna um resultado.
 
 ### Aula 05 - Hierarquia de componentes
 
 - O componentes que criamos podem ser reutilizados em vários componentes;
-- E ainda componentes podem formar uma hierarquia, sendo importados uns dentro dos outros, como fizemos em App;
+- E ainda componentes podem formar uma hierarquia, sendo importados uns dentro dos outros, como fizemos em App.
 
 ### Aula 06 - Evento de click
 
@@ -109,19 +108,19 @@
 - No React os eventos já estão 'prontos', podemos utilizar onClick para ativar uma função ao clicar em um elemento;
 - Esta função ao clicar em um elemento;
 - Esta função é criada na própria função do componente;
-- As funções geralmente tem o padão handleAlgumaCoisa; 
+- As funções geralmente tem o padão handleAlgumaCoisa.
 
 ### Aula 07 Funções no evento
 
 - Quando as funções são simples, podemos realizar a lógica no próprio evento;
 - Isso torna nosso código mais 'complicado', por atrelar lógica com HTML;
-- Mas em algumas situações é aplicável;
+- Mas em algumas situações é aplicável.
 
 ### Aula 08 - Funções de renderização
 
 - Podemos criar funções que retornanm JSX;
 - Isso serve para criar situações que dependem de outra condições
-- Ou seja, o JSX a ser renderizado pode variar por alguma variável, por exemplo;
+- Ou seja, o JSX a ser renderizado pode variar por alguma variável, por exemplo.
 
 ### Desafio 2
 
@@ -129,7 +128,7 @@
 2. Importe-o em App.js;
 3. No componente criado faça a criação de dois valores numéricos;
 4. Imprima este valores no componente;
-5. Crie também um evento de click que soma estes dois valores e exibe no console;
+5. Crie também um evento de click que soma estes dois valores e exibe no console.
 
 ## Seção 03: React Avançado
 
@@ -137,20 +136,20 @@
 
 1. Crie um projeto para a nova seção;
 2. Limpe o arquivo do componente principal;
-3. E por fim coloque o título de Seção 3;
+3. E por fim coloque o título de Seção 3.
 
 ### Aula 01 - Imagens no React
 
 - As umagens pública do nosso projeto podem ficar na pasta public;
 - De lá elas podem ser chamadas pelas tags img diretamente pelo /nome.jpg;
-- Pois a pasta public fica linkada com src das imagens;
+- Pois a pasta public fica linkada com src das imagens.
 
 ### Aula 02 - Imagens em assets
 
 - A pasta public pode ser utilizada para colocar imagens, como fizemos na aula passada;
 - Mas um padrão bem utilizada para as imagens dos projetos é colocar em uma pasta chamada assets, em src;
 - Ou seja, voce vai encontrar projetos com as duas abordagens;
-- Em assets precisamos importar as imagens, e o src é dinâmico com nome de importação;
+- Em assets precisamos importar as imagens, e o src é dinâmico com nome de importação.
 
 ### Aula 03 - O que são hooks?
 
@@ -159,21 +158,20 @@
 - Todods os hooks começam com use, por exemplo: useState;
 - Podemos criar os nossos hooks, isso é chamado de custom hook;
 - Os hooks precisam ser importados;
-- Geralmente são úteis em todas as aplicações, utlizaremnos diveros ao longo do curso;
+- Geralmente são úteis em todas as aplicações, utlizaremnos diveros ao longo do curso.
 
 ### Aula 04 - useState hook
 
 - O hook de useState é um dos mais utilizados;
 - Utilizamos parar gerenciar o estado de algum dado, variavéis não funcionam corretamente, o componente não re-renderiza;
-- Para guardar o dado definimos o nome da variável e para alterar vamos utilizar setNome, onde nome é o nome do nosso dados;
-
+- Para guardar o dado definimos o nome da variável e para alterar vamos utilizar setNome, onde nome é o nome do nosso dados.
 
 ### Aula 05 - Renderização de lsita
 
 - Uma outra função bem comum é renderizar listas de dados no template;
 - Faremos isso com os dados com tipo array;
 - Utilizando o método map para nos auxiliar;
-- Alem dos dados podemos inserir JSX em interação;
+- Alem dos dados podemos inserir JSX em interação.
 
 ### Aula 06 - A propriedade key
 
@@ -181,45 +179,45 @@
 - O React precisa de uma chave única em cada um dos itens iterados;
 - Isso server para ajudá-lo na renderização do componente;
 - Geralmente teremos um array de objetos e podemos colocar key como alguma chave única, como o id de algum dado;
-- Em último caso devemos utilizar o index do metodo map;
+- Em último caso devemos utilizar o index do metodo map.
 
 ### Aula 08 - Previous State
 
 - Previous state é um recurso que nos permite pegar o dado em seu valor original dentro de um set dado;
 - Isso é muito usado para modificar listas, pois temos o valor antigo e transformamos em um valor novo;
-- O primeiro argumento de um set sempre será o previous state;
+- O primeiro argumento de um set sempre será o previous state.
 
 ### Aula 09 - Renderização condicional
 
 - Renderização condicional é quando imprimimos uma parte do template baseado em uma condição;
 - Ou seha, utulizando uma checagem com if;
-- Isso é interessante em situações como: usuário autenticado/não autenticado;
+- Isso é interessante em situações como: usuário autenticado/não autenticado.
 
 ### Aula 10 - Adicionando um else
 
 - Podemos também realizar um if/else no JSX;
 - Aqui devemos utilizar o if ternário;
-- Onde temos a sintaxe: condição ? bloco1 : bloco2
+- Onde temos a sintaxe: condição ? bloco1 : bloco2.
 
 ### Aula 11 - Props
 
 - Props é outro recurso fundamental do React;
 - Nos permite passar valores de um componente pai para umcomponente filho;
 - Isso será muito útil quando os dados forem carregados via banco de dados, por exemplo;
-- As props vem em um objeto no argumento da função do componente;
+- As props vem em um objeto no argumento da função do componente.
 
 ### Aula 12 - Desestruturando props
 
 - É super comum passar mais de uma prop em um componente;
 - Para facilitar isso o React nos permite desestruturar as propriedadesque chegam, com o recurso de destructuring;
 - Se temos duas props: nage e age;
-- Podemos fazer assim function MyComponent({name, age})
+- Podemos fazer assim function MyComponent({name, age}).
 
 ### Aula 13 - Reutilização de componentes
 
 - Com props a reutilização de componentes começa a fazer muito sentido;
 - Se temos os dados de 1000 carros por exemplo, podemos reaproveitar o nosso CarDetails 1000 vezes;
-- Isso torna nosso código mais padronizado, facilitando a manutenção;
+- Isso torna nosso código mais padronizado, facilitando a manutenção.
 
 ### Aula 14 - Reutilização com loop
 
@@ -254,48 +252,48 @@
 
 - Elevação de state ou State lift é quando um valor é elevado docomponente filho para o componente pai;
 - Geralmente temos um componente que usa o state e outro que o altera;
-- Então precisamos passar a alteração para o componente pai, e este passapara o componente que usa o state;
+- Então precisamos passar a alteração para o componente pai, e este passapara o componente que usa o state.
 
 ### Desafio 4
 
 1. Crie um array de objetos compostos de pessoas, com as propriedades de: nome, idade e profissão (array com pelo menos 3 itens);
 2. Os dados devem ser exibidos em um componente UserDetails, que você deve criar, todas as informações devem ser exibidas;
 3. Faça uma renderização condicional que exibe se o usuário pode tirar carteira de habilitação ou não, imprima isso também no componente;
-4. A informação pode ser exibida num parágrafo (checar se idade >= 18);
+4. A informação pode ser exibida num parágrafo (checar se idade >= 18).
 
-## Seção 03: React Avançado
+## Seção 04: CSS no React
 
 ### Aula 01 - CSS global
 
 - O CSS global é utilizado para estilizar diversos elementos em comum ou fazer um reset no CSS;
 - Utilizamos o arquivo index.css para isso;
-- Ele está na pasta src;
+- Ele está na pasta src.
 
 ### Aula 02 - CSS de Componente
 
 - O CSS de componente é utilizado para um componente em específico;
 - Geralmente é criado um arquivo com o mesmo nome do componente e este é importado no componente;
 - Note que este método não é scoped, ou seja, o CSS vaza para outros componentes se houver uma regra em colisão;
-- O React já cria um exemplo desta técnica com o App.css/js;
+- O React já cria um exemplo desta técnica com o App.css/js.
 
 ### Aula 03 - Inline style
 
 - O inline style do React é igual o do CSS;
 - Por meio do atributo style conseguimos aplicar regras diretamente emum elemento;
-- Devemos optar por outras maneiras de CSS, o inline pode dificultar a manutenção ou deixar o código imprevisível em algumas situações;
+- Devemos optar por outras maneiras de CSS, o inline pode dificultar a manutenção ou deixar o código imprevisível em algumas situações.
 
 ### Aula 04 - Inline Style Dinâmico
 
 - O CSS dinâmico inline aplica estilo baseado em uma condicional;
 - Vamos inserir no atributo um if ternário;
-- Dependendo da condição podemos mudar que regras de estilo um elemento recebe;
+- Dependendo da condição podemos mudar que regras de estilo um elemento recebe.
 
 ### Aula 05 - CSS Modules
 
 - O CSS Modules é um recurso de CSS scoped;
 - Ou seja, ele vai ser exclusivo do componente;
 - O nome do arquivo é: Componente.module.css;
-- Precisamos importá-lo também no componente;
+- Precisamos importá-lo também no componente.
 
 ### Desafio 5
 
@@ -303,4 +301,70 @@
 2. No CSS global zere a margin, padding e coloque uma fonte que você goste;
 3. Crie um componente que exibe detalhes de carros, este componente deve ser estilizado com scoped;
 4. Exiba pelo menos 3 carros;
-5. Coloque um título em App.js para o seu projeto, estilize com o App.css;
+5. Coloque um título em App.js para o seu projeto, estilize com o App.css.
+
+## Seção 05: React e formulários
+
+### Aula 01 - Formulários e React
+
+- No React vamos também utilizar a tag form para formulários;
+- As labels dos inputs contém o atributo htmlFor, que deve ter o valor do name do input;
+- Não utilizamos action, pois o processamento será feito de forma assíncrona;
+- Vamos criar um form!
+
+### Aula 02 - Label envolvendo o input
+
+- Em React um padrão comum é a tag label envolvendo o input;
+- Isso faz com que o atributo for se torne opcional;
+- Simplificando nossa estrutura de HTML, sem perder a semântica;
+- Vamos ver isto na prática!
+
+### Aula 03 - Manipulação de valores
+
+- Para manipular os valores dos inputs vamos utilizar  o hook useState;
+- Ou seja, podemos armazenar na variável e utilizar o set para alterar o valor;
+- Vamos criar uma função para alterar o valor no evento onChange;
+- Deixando nosso código fácil de trabalhar nas próximas etapas: como envio dos dados para BD e validação;
+- Vamos ver isto na prática!
+
+### Aula 04 - Simplificando a manipulação
+
+- Quando temos vários inputs podemos realizar a manipulação de forma mais simples;
+- Basicamente criamos uma função inline no onChange;
+- Ela vai alterar o valor do state com o método set, da mesma forma que a função isolada;
+- Vamos ver isto na prática!
+
+### Aula 05 - Envio de formulário
+
+- Para enviar um form vamos utilizar o evento onSubmit;
+- Ele chamará uma função, e nesta devemos lembrar de parar a submissão com o preventDefault;
+- Nesta etapa podemos realizar validações, envio de form para o servidor, reset de form e outras ações;
+- Vamos ver isto na prática!
+
+### Aula 06 - Controlled inputs
+
+- Controlled inputs é um recurso que nos permite mais flexibilidade nos forms de React;
+- Precisamos apenas igualar o valor ao state;
+- Um uso muito comum: formulários de edição, que os dados vem do back-end, conseguiremos preencher o input mais facilmente;
+- Vamos ver isto na prática!
+
+### Aula 07 - Limpando formulários
+
+- Com o controller inputs limpar o form será fácil;
+- Basta atribuir um valor de uma string vazia aos states e pronto!
+- Isso será feito após o envio, em formulários que o usuário precisa preencher novamente;
+- Vamos ver isto na prática!
+
+### Aula 08 - Input de Textarea
+
+- O textarea pode ser considerado um input de texto normal;
+- Utilizaremos o value para alterar o state inicial;
+- E o evento onChange para modificar o valor do state;
+- Vamos ver isto na prática!
+
+### Aula 09 - Input de Select
+
+- O select também será muito semelhante aos outros inputs;
+- Quando temos a alteração de um valor o evento onChange pode captar isso;
+- O value também pode atribuir qual option estará selecionada;
+- Vamos ver isto na prática!
